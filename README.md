@@ -13,5 +13,5 @@ This repository tracks my journey through SQL mastery and Python development.
 - **Practice Platforms**: SQLBolt, SQLZoo
 
 ## 🗓️ Learning Log
-* **May 6:** Completed Lesson 11 (Aggregates) and successfully synced local environment with GitHub.
+* **May 6:** Completed Lesson 12 (Aggregates) and successfully synced local environment with GitHub.
 * **May 6:** Verified GitHub workflow and contribution graph.
