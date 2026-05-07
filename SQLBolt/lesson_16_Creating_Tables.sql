@@ -5,4 +5,4 @@
 --Version A number (floating point) of the latest version of this database
 --Download_count An integer count of the number of times this database was downloaded
 -- This table has no constraints.
-CREATE TABLE database (id INTEGER PRIMARY KEY, Name text, Version INTEGER, Download_count INTEGER);
+CREATE TABLE database (id INTEGER PRIMARY KEY, Name text, Version INTEGER, Download_count INTEGER);+
