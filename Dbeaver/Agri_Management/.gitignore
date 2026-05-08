@@ -1,0 +1,12 @@
+# Ignore DBeaver-specific project and settings files
+.dbeaver/
+.project
+.settings/
+
+# Ignore local database drivers
+drivers/
+
+# Ignore temporary/log files
+*.log
+.DS_Store
+Thumbs.db
