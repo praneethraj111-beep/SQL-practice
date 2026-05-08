@@ -50,3 +50,21 @@ select region, sum(total_revenue) as total_region_revenue from crop_sales_practi
 
 -- Task 10 : -- Create a query that shows crop_name and a new column called sale_size. If quantity_kg is > 500, label it 'Big Sale'; otherwise, label it 'Small Sale'. (Use CASE WHEN).
 select crop_name, case when quantity_kg> 500 then 'Big Sale' else 'Small Sale' end as sale_size from crop_sales_practice; 
+
+
+
+CREATE TABLE crop_details (
+    crop_name VARCHAR(50) PRIMARY KEY,
+    category VARCHAR(20),
+    scientific_name VARCHAR(100)
+);
+
+INSERT INTO crop_details (crop_name, category, scientific_name) VALUES
+('Paddy', 'Cereal', 'Oryza sativa'),
+('Cotton', 'Fiber', 'Gossypium'),
+('Maize', 'Cereal', 'Zea mays'),
+('Wheat', 'Cereal', 'Triticum aestivum');
+
+-- Task 11 : -- Now that you have two tables, your goal is to see the sales data and the scientific name in one result.
+-- Write a query that shows sale_id, crop_name, and scientific_name for all sales.
+select crop_sales_practice.sale_id,crop_sales_practice.crop_name ,crop_details.scientific_name from crop_sales_practice inner join crop_details on crop_sales_practice.crop_name = crop_details.crop_name;
