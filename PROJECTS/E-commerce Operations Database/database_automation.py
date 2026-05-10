@@ -4,7 +4,7 @@ import csv # Added this to handle Excel-friendly files
 try:
     connection = psycopg2.connect(
         user="postgres",
-        password="Manish@030",
+        password="Your_Password_Here",
         host="127.0.0.1",
         port="5432",
         database="postgres"
