@@ -8,16 +8,17 @@
 DROP VIEW IF EXISTS daily_business_summary;
 
 -- 2. Create the new version with your updated columns (including email)
-CREATE VIEW daily_business_summary AS
+CREATE OR REPLACE VIEW ecommerce_ops.daily_business_summary AS
 SELECT 
+    o.order_date,
     u.full_name,
-    u.email,
     p.product_name,
-    p.price
-FROM orders o 
-JOIN users u ON o.user_id = u.user_id
-JOIN products p ON o.product_id = p.product_id;
-
+    p.price,
+    o.quantity, -- We are adding this!
+    (p.price * o.quantity) AS total_revenue -- And this!
+FROM ecommerce_ops.orders o
+JOIN ecommerce_ops.users u ON o.user_id = u.user_id
+JOIN ecommerce_ops.products p ON o.product_id = p.product_id;
 
 -- "What is the total revenue we have made across all orders?"
 select sum(o.quantity * p.price) as grand_total_revenue
