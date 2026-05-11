@@ -1,5 +1,12 @@
 \# EV Fleet Operations \& Battery Analytics
 
+### **Developer:** Gantam Manish Kumar
+**Domain:** Data Operations / Automotive Engineering
+
+---
+
+## 🖼️ Dashboard Visualization
+![EV Analytics Dashboard](dashboard_preview.png)
 
 
 \## Project Overview
@@ -61,4 +68,7 @@ The database consists of two primary tables and a calculated view:
 \* Tracking of battery degradation through State of Charge (SoC) analysis.
 
 \* Automated range projection for fleet planning.
+
+---
+© 2026 Gantam Manish Kumar. All rights reserved.
 
