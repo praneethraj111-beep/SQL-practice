@@ -42,7 +42,7 @@ A professional Power BI dashboard designed to provide actionable intelligence fo
 
 \## 📂 Repository Structure
 
-\* `VoltStream\_Fleet\_Analytics.pbix`: The core Power BI project file.
+\* `VoltStream\_Fleet\_Analytics.pbix`:  The core Power BI project file.  
 
 \* `/data`: Contains the source CSV/Excel files used for the analysis.
 
