@@ -1,4 +1,4 @@
-\# Apex Retail Core: SQL \& BI Portfolio
+\# Apex Retail Core: SQL \& BI Portfolio (Data Operations)
 
 
 
@@ -18,13 +18,25 @@ An end-to-end Data Operations project simulating a high-volume retail environmen
 
 
 
-\## Key Features
+\## 🏗️ Architecture
 
 \- \*\*Normalization:\*\* 3NF compliant schema for Customers, Products, and Orders.
 
-\- \*\*Automation:\*\* SQL Triggers for real-time inventory updates.
+\- \*\*Automation:\*\* PL/pgSQL Triggers handle real-time inventory adjustments.
 
 \- \*\*Business Intelligence:\*\* Custom SQL Views for MoM Growth and Stock Alerts.
+
+\- \*\*Analytics:** 5 specialized Views handle complex logic (MoM growth, RFM segments).
+
+
+
+## 📈 Key Insights Delivered
+
+1. **Financials:** Daily revenue trends and Month-over-Month growth.
+
+2. **Operations:** Real-time stock alerts (Critical vs. Warning).
+
+3. **CRM:** Customer tiering based on Lifetime Value (LTV).
 
 
 
