@@ -17,4 +17,8 @@ JOIN real_estate_pro.dim_owners o ON p.owner_id = o.owner_id;
 -- CORRECT STRUCTURE
 UPDATE real_estate_pro.fact_transactions
 SET brokerage_paid = amount_inr * 0.05    -- Action: What to change
+<<<<<<< HEAD
 WHERE brokerage_paid IS NULL;             -- Filter: Which rows to change
+=======
+WHERE brokerage_paid IS NULL;             -- Filter: Which rows to change
+>>>>>>> f244aa3 (completed estate pro)

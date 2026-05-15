@@ -6,4 +6,8 @@ CREATE INDEX idx_transaction_date ON real_estate_pro.fact_transactions(transacti
 
 -- 3. Foreign Key Indexes (Speeds up our JOINS)
 CREATE INDEX idx_prop_owner_id ON real_estate_pro.dim_properties(owner_id);
+<<<<<<< HEAD
 CREATE INDEX idx_fact_property_id ON real_estate_pro.fact_transactions(property_id);
+=======
+CREATE INDEX idx_fact_property_id ON real_estate_pro.fact_transactions(property_id);
+>>>>>>> f244aa3 (completed estate pro)
