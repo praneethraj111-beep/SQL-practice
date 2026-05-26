@@ -18,4 +18,4 @@ This repository tracks my journey through SQL mastery and Python development.
 
 ## Learning log
 Completed lesson 1-18 in SQLBOLT
-Completed 1-3lessons in SQLZOO
+Completed 1-3lessons in SQLZOO.
