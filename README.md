@@ -14,7 +14,7 @@ This repository tracks my journey through SQL mastery and Python development.
 
 ## 🗓️ Learning Log
 * **May 6:** Completed Lesson 12 (Aggregates) and successfully synced local environment with GitHub.
-* **May 6:** Verified GitHub workflow and contribution graph.
+* **May 6:** Verified GitHub workflow and contribution graph. 
 
 ## Learning log
 Completed lesson 1-18 in SQLBOLT
