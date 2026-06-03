@@ -1,4 +1,4 @@
-# SQL & Data Operations Practice
+# SQL & Data Operations Practice : 
 
 This repository tracks my journey through SQL mastery and Python development. 
 
