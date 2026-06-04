@@ -10,7 +10,7 @@ This repository tracks my journey through SQL mastery and Python development.
 ## 🛠️ Tools Used
 - **Environment**: VS Code
 - **Version Control**: Git & GitHub
-- **Practice Platforms**: SQLBolt, SQLZoo
+- **Practice Platforms**: SQLBolt, SQLZoo,LeetCode.
 
 ## 🗓️ Learning Log
 * **May 6:** Completed Lesson 12 (Aggregates) and successfully synced local environment with GitHub.
