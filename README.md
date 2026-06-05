@@ -5,7 +5,7 @@ This repository tracks my journey through SQL mastery and Python development.
 ## 📚 Technical Roadmap
 - **SQLBolt**: Lessons 1-18 (Core Syntax & Queries)
 - **SQLZoo**: Advanced practice (SELECT Basics, Nobel, JOINs)
-- **Next Phase**: Python for Data Analysis & DBeaver Database Management
+- **Next Phase**: Python for Data Analysis & DBeaver Database Management.
 
 ## 🛠️ Tools Used
 - **Environment**: VS Code
