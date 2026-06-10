@@ -7,7 +7,7 @@ This repository tracks my journey through SQL mastery and Python development.
 - **SQLZoo**: Advanced practice (SELECT Basics, Nobel, JOINs)
 - **Next Phase**: Python for Data Analysis & DBeaver Database Management.
 
-## 🛠️ Tools Used
+## 🛠️ Tools Used :
 - **Environment**: VS Code
 - **Version Control**: Git & GitHub
 - **Practice Platforms**: SQLBolt, SQLZoo,LeetCode.
